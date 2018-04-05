@@ -1,4 +1,4 @@
 name: Rajiv Hemanth
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-permalink: /cv/
+permalink: /about/
