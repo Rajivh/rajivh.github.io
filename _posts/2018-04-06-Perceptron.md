@@ -25,10 +25,12 @@ When it comes to more complex problems, like digit recognition, the perceptron i
 
 Example - Let us use a perceptron
 
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
+Introduce sigmoid neurons - sigmoid fucntion. 
 
-Introduce sigmoid neurons - sigmoid fucntion. 1/ (1 + exp(-z)). Here z is the weighted sum of the inputs along with the bias term.
+&sigma(z); = 1/ (1 + e<sup>(-z)</sup>). 
 
-z = wj.xj + Bias
+Here z is the weighted sum of the inputs along with the bias term.
+
+z = &sum;w<sub>j</sub>.x<sub>j</sub> + Bias
 
