@@ -28,7 +28,7 @@ Example - Let us use a perceptron
 
 Introduce sigmoid neurons - sigmoid fucntion. 
 
-&sigma(z); = 1/ (1 + e<sup>(-z)</sup>). 
+&sigma;(z) = 1/ (1 + e<sup>(-z)</sup>)
 
 Here z is the weighted sum of the inputs along with the bias term.
 
