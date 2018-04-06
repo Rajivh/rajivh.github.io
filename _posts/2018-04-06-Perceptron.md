@@ -7,8 +7,9 @@ A perceptron can be in a network of layers. The perceptron in each layer supplie
 
 INtroduce the concept of bias. Bias is -threshold. 
 
-w<sub>j</sub>x<sub>j</sub> >= threshold, 1
-w<sub>j</sub>x<sub>j</sub> < threshold, 0
+&sigma w<sub>j</sub>x<sub>j</sub> >= threshold, 1
+
+&sigma w<sub>j</sub>x<sub>j</sub> < threshold, 0
 
 
 
