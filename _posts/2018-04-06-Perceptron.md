@@ -5,19 +5,17 @@ A perceptron can be thought of accepting multiple weighted inputs and producing 
 
 A perceptron can be in a network of layers. The perceptron in each layer supplies weighted outputs which is read by all the perceptrons in the subsequent layer. The perceptrons in the subsequent layer then apply a threshold and provide outputs which are again weighted and supplied as input to the subsequent layer and so on.
 
+
+&sum; w<sub>j</sub>x<sub>j</sub> >= threshold, 1
+
+&sum; w<sub>j</sub>x<sub>j</sub> < threshold, 0
+
 INtroduce the concept of bias. Bias is -threshold. 
 
-&sigma; w<sub>j</sub>x<sub>j</sub> >= threshold, 1
+&sum; w<sub>j</sub>x<sub>j</sub> + Bias >= 0, 1
 
-&sigma; w<sub>j</sub>x<sub>j</sub> < threshold, 0
+&sum; w<sub>j</sub>x<sub>j</sub> + Bias < 0, 0
 
-
-
-wj.xj >= threshold, 1
-wj,.xj < threshold, 0
-
-wj.xj + Bias >=0 , 1
-wj.xj + Bias <0, 0
 
 So when the bias is extremely high, the perceptron will easily output 1 whereas if the bias is extremely negative, then it is difficult to get the perceptron to fire (1 output)
 
