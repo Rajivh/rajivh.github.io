@@ -4,6 +4,6 @@ Why is this useful - let us consider an example of relation between age and inco
 
 The straight line or linear relationship between the two variables can be expressed in the form:
 
-Income = 
+Income =  $$a^2 + b^2 = c^2 $$
 
 $$a^2 + b^2 = c^2 $$
