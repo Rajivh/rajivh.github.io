@@ -14,17 +14,17 @@ $$         = log(p) - log(1-p)$$
 $$         = -log((1/p)-1)$$
 
 The Sigmoid function is given by
-$$1/(1+e^(-x))$$
+$$1/(1+e^{-x})$$
 
 Now substituting x with the logit function output, we get
-$$1/(1+e^(-(-log((1/p)-1)))$$
-$$=1/(1+(1/exp(-log((1/p)-1))))$$
+$$1/(1+e^{-(-log((1/p)-1)})$$
+$$=1/(1+(1/e^{-log((1/p)-1)}))$$
 
 Substituting, ((1/p)-1) to be x,
 
-$$exp(-log(x))/(1+exp(-log(x)))$$
-$$=exp(log(x))^(-1)/(1+exp(log(x))^(-1))$$
-$$=x^(-1)/(1+x^(-1))$$
+$$e^{-log(x)}/(1+e^{-log(x)})$$
+$$=e^{log(x)}^{-1}/(1+e^{log(x)}^{-1})$$
+$$=x^{-1}/(1+x^{-1})$$
 $$=(1/x)/(1+(1/x))$$
 $$=1/(x+1)$$
 $$=1/((1/p)-1+1)$$
