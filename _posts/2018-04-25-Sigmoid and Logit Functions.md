@@ -22,12 +22,12 @@ $$=1/(1+(1/e^{-log((1/p)-1)}))$$
 
 Substituting, ((1/p)-1) to be x,
 
-$$e^{-log(x)}/(1+e^{-log(x)})$$
-$$=e^{log(x)}^{-1}/(1+e^{log(x)}^{-1})$$
-$$=x^{-1}/(1+x^{-1})$$
-$$=(1/x)/(1+(1/x))$$
-$$=1/(x+1)$$
-$$=1/((1/p)-1+1)$$
+$$e^{-log(x)}/(1+e^{-log(x)})\\$$
+$$=e^{log(x)^{-1}}/(1+e^{log(x)^{-1}})\\$$
+$$=x^{-1}/(1+x^{-1})\\$$
+$$=(1/x)/(1+(1/x))\\$$
+$$=1/(x+1)\\$$
+$$=1/((1/p)-1+1)\\$$
 $$=p$$
 
 Thus, we understand that Sigmoid function is the inverse of Logit function.
