@@ -6,4 +6,4 @@ The straight line or linear relationship between the two variables can be expres
 
 Income =  $$a^2 + b^2 = c^2 $$
 
-$a^2 + b^2 = c^2$
+$$a^2 + b^2 = c^2$$
