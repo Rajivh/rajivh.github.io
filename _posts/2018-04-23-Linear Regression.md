@@ -23,13 +23,14 @@ But it would be lot of work to find out the best fitting line with the least squ
 One approach to this problem is using an algorithm called gradient descent. Before, we get into the algorithm, let us understand a couple of functions - the hypothesis function and the cost function.
 
 The hypothesis function is our straight line equation - we hypothesize that we can fit a straight line to best describe the relationship between the Age and Income variables.
-$$H(x) = Beta0 + Beta1 * Age$$
+
+$H(x) = Beta0 + Beta1 * Age$
 
 We would like our hypothesis function H(x) to be as close as possible to the actual Income value (y). We can achieve this by playing around with the values of Beta0 and Beta1.
 
 For this, we define a Cost function - which is the squared distance of the errors. The error can be defined as H(x)-y. Summing the square of this error over all data points, we get,
 
-$$Cost Function J(Beta0, Beta1) = sigma i=1ton (H(xi) - yi)^2$$
+$Cost Function J(Beta0, Beta1) = sigma i=1ton (H(xi) - yi)^2$
 
 We need to find that particular combination of Beta0 and Beta1 that finds the minima of this Cost function.
 
