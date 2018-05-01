@@ -34,10 +34,10 @@ $Cost Function J(Beta0, Beta1) = sigma i=1ton (H(xi) - yi)^2$
 
 We need to find that particular combination of Beta0 and Beta1 that finds the minima of this Cost function.
 
-&sigma;(z) = 1/ (1 + e<sup>(-z)</sup>)
+$&sigma;(z) = 1/ (1 + e<sup>(-z)</sup>)$
 
 Here z is the weighted sum of the inputs along with the bias term.
 
-z = &sum;w<sub>j</sub>.x<sub>j</sub> + Bias
+$z = &sum;w<sub>j</sub>.x<sub>j</sub> + Bias$
 
 
