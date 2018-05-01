@@ -10,3 +10,4 @@ Here Beta0 is the y-intercept and Beta1 is the slope of the line expressing the 
 
 Assuming, we have multiple data points denoting Age and Income, and we plot in the xy space to get a scatter plot. 
 
+![Plot](/images/plot.png){:class="img-responsive"}
