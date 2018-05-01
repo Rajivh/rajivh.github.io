@@ -5,3 +5,8 @@ Why is this useful - let us consider an example of relation between age and inco
 The straight line or linear relationship between the two variables can be expressed in the form:
 
 $$Income = Beta0 + Beta1*Age$$
+
+Here Beta0 is the y-intercept and Beta1 is the slope of the line expressing the relationship between the two variables.
+
+Assuming, we have multiple data points denoting Age and Income, and we plot in the xy space to get a scatter plot. 
+
