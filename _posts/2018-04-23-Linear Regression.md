@@ -30,7 +30,9 @@ We would like our hypothesis function H(x) to be as close as possible to the act
 
 For this, we define a Cost function - which is the squared distance of the errors. The error can be defined as H(x)-y. Summing the square of this error over all data points, we get,
 
-$Cost Function J(Beta0, Beta1) = sigma i=1ton (H(xi) - yi)^2$
+$$Cost Function - J(Beta0, Beta1) = \sum_{i-0}^n (H(xi) - yi)^2$$
+
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
 We need to find that particular combination of Beta0 and Beta1 that finds the minima of this Cost function.
 
