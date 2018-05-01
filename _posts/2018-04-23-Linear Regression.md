@@ -6,7 +6,7 @@ The straight line or linear relationship between the two variables can be expres
 
 $$Income = \beta0 + \beta1*Age$$
 
-Here Beta0 is the y-intercept and Beta1 is the slope of the line expressing the relationship between the two variables.
+Here $\beta0$ is the y-intercept and $\beta1$ is the slope of the line expressing the relationship between the two variables.
 
 Assuming, we have multiple data points denoting Age and Income, and we plot in the xy space to get a scatter plot. 
 
@@ -24,13 +24,13 @@ One approach to this problem is using an algorithm called gradient descent. Befo
 
 The hypothesis function is our straight line equation - we hypothesize that we can fit a straight line to best describe the relationship between the Age and Income variables.
 
-$H(x) = \beta0 + \beta1 * Age$
+$$H(x) = \beta0 + \beta1 * Age$$
 
 We would like our hypothesis function H(x) to be as close as possible to the actual Income value (y). We can achieve this by playing around with the values of Beta0 and Beta1.
 
 For this, we define a Cost function - which is the squared distance of the errors. The error can be defined as H(x)-y. Summing the square of this error over all data points, we get,
 
-$$Cost Function - J(\beta0, \beta1) = \sum_{i-0}^n (H(xi) - yi)^2$$
+$$Cost Function - J(\beta0, \beta1) = \sum_{i-0}^n (H(x_i) - y_i)^2$$
 
-We need to find that particular combination of Beta0 and Beta1 that finds the minima of this Cost function.
+We need to find that particular combination of $\beta0$ and $\beta1$ that finds the minima of this Cost function.
 
