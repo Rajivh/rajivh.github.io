@@ -22,16 +22,8 @@ So when the bias is extremely high, the perceptron will easily output 1 whereas 
 
 When it comes to more complex problems, like digit recognition, the perceptron is not ideal. Why - a small change in the weights can completely change the output from 0 to 1 - whereas what we need is gradual changes which does not disturb the other outputs. 
 
+Also, the perceptron cannot be used to classify when the data is not linearly separable.
 
 
 Example - Let us use a perceptron
-
-
-Introduce sigmoid neurons - sigmoid fucntion. 
-
-&sigma;(z) = 1/ (1 + e<sup>(-z)</sup>)
-
-Here z is the weighted sum of the inputs along with the bias term.
-
-z = &sum;w<sub>j</sub>.x<sub>j</sub> + Bias
 
