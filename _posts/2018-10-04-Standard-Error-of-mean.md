@@ -8,6 +8,9 @@ Yes you got it right - it would be a normal distribution with the middle values 
 Let us understand with a working example. 
 Step 1: Creating a frequency distribution of numbers between 0 and 1000 generated randomly 10000 times. The resulting frequency distribution looks far from a normal distribution. 
 
+![](/_posts/images/orig_dist.png){:class="img-responsive"}  
+
+
 Then we draw samples of size 10 from this original population and calculate their mean. We repeat this process of drawing samples and calculating mean, 1000 times. The frequency distribution of these means is plotted.
 
 The same process is repeated for samples of size 50 and the frequency distribution plotted.
@@ -15,5 +18,16 @@ The same process is repeated for samples of size 50 and the frequency distributi
 The Standard Error or the standard deviation of the sampling distribution of the sample means is 40 for the distribution of sample size 50 and 90 for the distribution of sample size 10. This is very evident in the plots - the distribution from samples of size 50 is more tighter than the distribution from samples of size 10. Do pay attention to the range of values in the x-axis. 
 
 The mean of the original distribution is 499 and the mean of the second distribution (of sample size 50) is also very close to 499. The mean of the first distribution (of sample size 10) is marginally different at 496.
+
+  ```Jupyter Notebook
+#Initialising variables
+i = np.array ([[0.05,0.1]]) # Single record input array
+o = np.array ([[1]]) # Output for the Single training example
+output_neurons = 1
+hidden_neurons = 2
+wh= np.array ([[0.15,0.25],[0.2,0.3]]) # 2 x 2  matrix  - number of input features x number of hidden nodes
+wout=np.array([[0.40],[0.45]]) # 2  x 1 - number of hidden nodes x number of output nodes
+```
+
 
 
