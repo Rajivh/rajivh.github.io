@@ -21,15 +21,6 @@ The Standard Error or the standard deviation of the sampling distribution of the
 
 The mean of the original distribution is 499 and the mean of the second distribution (of sample size 50) is also very close to 499. The mean of the first distribution (of sample size 10) is marginally different at 496.
 
-  ```Jupyter Notebook
-#Initialising variables
-i = np.array ([[0.05,0.1]]) # Single record input array
-o = np.array ([[1]]) # Output for the Single training example
-output_neurons = 1
-hidden_neurons = 2
-wh= np.array ([[0.15,0.25],[0.2,0.3]]) # 2 x 2  matrix  - number of input features x number of hidden nodes
-wout=np.array([[0.40],[0.45]]) # 2  x 1 - number of hidden nodes x number of output nodes
-```
-
-
+You can find the code for these plots here:
+https://github.com/Rajivh/Statistics
 
