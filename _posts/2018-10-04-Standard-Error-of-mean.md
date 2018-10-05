@@ -8,7 +8,7 @@ Yes you got it right - it would be a normal distribution with the middle values 
 Let us understand with a working example. 
 Step 1: Creating a frequency distribution of numbers between 0 and 1000 generated randomly 10000 times. The resulting frequency distribution looks far from a normal distribution. 
 
-![](/images/orig_dist.png){:class="img-responsive"}  
+![](/images/Org_dist.png){:class="img-responsive"}  
 
 
 Then we draw samples of size 10 from this original population and calculate their mean. We repeat this process of drawing samples and calculating mean, 1000 times. The frequency distribution of these means is plotted.
