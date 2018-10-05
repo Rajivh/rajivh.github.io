@@ -15,6 +15,8 @@ Then we draw samples of size 10 from this original population and calculate thei
 
 The same process is repeated for samples of size 50 and the frequency distribution plotted.
 
+![](/_posts/images/sample_dist.png){:class="img-responsive"}  
+
 The Standard Error or the standard deviation of the sampling distribution of the sample means is 40 for the distribution of sample size 50 and 90 for the distribution of sample size 10. This is very evident in the plots - the distribution from samples of size 50 is more tighter than the distribution from samples of size 10. Do pay attention to the range of values in the x-axis. 
 
 The mean of the original distribution is 499 and the mean of the second distribution (of sample size 50) is also very close to 499. The mean of the first distribution (of sample size 10) is marginally different at 496.
