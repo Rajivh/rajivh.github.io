@@ -1,1 +1,3 @@
-Python Slicing
+Python Lists and arrays can be sliced in multiple ways. Here, I try out some of them.
+Let's create a list. 
+slice_list = 
